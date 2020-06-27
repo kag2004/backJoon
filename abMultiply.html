@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="utf-8">
+        <body>
+            <title>          
+            </title>
+            <div>
+                <script type="text/javascript">
+                    let a = prompt('A 의 값을 입력해 주세요','');
+                    let b = prompt('B 의 값을 입력해주세요.','');
+
+                    function plus (a, b){
+                        let c = Number(a) * Number(b)
+                        return c
+                    }
+
+                    if(0 < a && b <10){
+                        let sumPlus = plus(a,b)
+                        console.log('a*b 값 :', sumPlus)
+                    }else {
+                        alert ('a는 0보다 작거나 b 가 10보다 크면 안됩니다. 다시 확인 해주세요.')
+                    }
+                </script>
+            </div>
+        </body>
+    </head>
+</html>
